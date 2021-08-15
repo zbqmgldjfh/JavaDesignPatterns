@@ -1,7 +1,5 @@
 package com.company.Observer;
 
-public class Observer {
-    public static void main(String[] args){
-
-    }
+public interface Observer {
+    public void update(float temp, float humidity, float pressure);
 }
