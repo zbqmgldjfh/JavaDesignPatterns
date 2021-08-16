@@ -1,6 +1,6 @@
 package com.company.Decorator;
 
-public class SteamMilk extends Beverage {
+public class SteamMilk extends CondimentDecorator {
     Beverage beverage;
 
     public SteamMilk(Beverage beverage){

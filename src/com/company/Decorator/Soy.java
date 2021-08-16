@@ -1,6 +1,6 @@
 package com.company.Decorator;
 
-public class Soy extends Beverage {
+public class Soy extends CondimentDecorator {
     Beverage beverage;
 
     public Soy(Beverage beverage){

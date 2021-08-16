@@ -1,6 +1,6 @@
 package com.company.Decorator;
 
-public class Whip extends Beverage{
+public class Whip extends CondimentDecorator{
     Beverage beverage;
 
     public Whip(Beverage beverage){
