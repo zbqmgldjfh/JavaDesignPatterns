@@ -15,20 +15,26 @@ public class Main {
 		LightOnCommand kitchenOn = new LightOnCommand(kitchenLight);
 		LightOffCommand kitchenOff = new LightOffCommand(kitchenLight);
 
-		StereoOnWithCDCommand stereoOnWithCD = new StereoOnWithCDCommand(stereo);
-		StereoOffCommand stereoOff = new StereoOffCommand(stereo);
+		//StereoOnWithCDCommand stereoOnWithCD = new StereoOnWithCDCommand(stereo);
+		//StereoOffCommand stereoOff = new StereoOffCommand(stereo);
 
 		remote.setCommand(0, livingRoomLightOn, livingRoomLightOff); // 커맨드 로딩
-		remote.setCommand(1, kitchenOn, kitchenOff);
-		remote.setCommand(2, stereoOnWithCD, stereoOff);
+		//remote.setCommand(1, kitchenOn, kitchenOff);
+		//remote.setCommand(2, stereoOnWithCD, stereoOff);
 
 		System.out.println(remote);
 
-		remote.onButtonWasPushed(0);
-		remote.offButtonWasPushed(0);
-		remote.onButtonWasPushed(1);
-		remote.offButtonWasPushed(1);
-		remote.onButtonWasPushed(2);
-		remote.offButtonWasPushed(2);
+		remote.onButtonWasPushed(0); //킴
+		remote.offButtonWasPushed(0); // 끔
+		System.out.println(remote);
+		remote.undoButtonWasPushed(); // 킴
+		remote.offButtonWasPushed(0); // 끔
+		remote.onButtonWasPushed(0); //킴
+		System.out.println(remote);
+		remote.undoButtonWasPushed(); // 끔
+		//remote.onButtonWasPushed(1);
+		//remote.offButtonWasPushed(1);
+		//remote.onButtonWasPushed(2);
+		//remote.offButtonWasPushed(2);
     }
 }
