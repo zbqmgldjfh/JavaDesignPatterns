@@ -1,11 +1,13 @@
-package com.company.templateMethod;
+package com.company.TemplateMethod;
 
-public abstract class CaffeineBeverage {
+public abstract class CaffeineBeverageWithHook {
     final void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();
-        addCondiments();
+        if(customerWantsCondiments()) {
+            addCondiments();;
+        }
     }
     abstract void brew();
     abstract void addCondiments();
@@ -15,4 +17,5 @@ public abstract class CaffeineBeverage {
     public void pourInCup() {
         System.out.println("컵에 따르는 중");
     }
+    boolean customerWantsCondiments() {return true;}
 }

@@ -1,6 +1,6 @@
-package com.company.templateMethod;
+package com.company.TemplateMethod;
 
-public class Coffee extends CaffeineBeverage {
+public abstract class Coffee extends CaffeineBeverage {
     public void brewCoffeeGrinds() {
         System.out.println("필터를 통해 커피를 우려내는 중");
     }

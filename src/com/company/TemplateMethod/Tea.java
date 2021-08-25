@@ -1,4 +1,4 @@
-package com.company.templateMethod;
+package com.company.TemplateMethod;
 
 public class Tea extends CaffeineBeverage{
     public void brew() {
