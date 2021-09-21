@@ -19,8 +19,10 @@
 #### [12장. 프록시 패턴](https://blog.naver.com/zbqmgldjfh/222498096840)
 #### [13장. 컴파운드 패턴](https://blog.naver.com/zbqmgldjfh/222499154933)
 
-<br>
+---
 
 ### [책 자체 리뷰](https://blog.naver.com/zbqmgldjfh/222512258738) 
 책을 읽으며 든 생각과, 장점 리뷰
 
+----
+<img src="https://user-images.githubusercontent.com/60593969/134138332-5d29552a-9c80-41be-8b03-f8b68bd66ef4.jpeg" width="400">
